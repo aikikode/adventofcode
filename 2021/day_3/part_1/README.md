@@ -1,4 +1,5 @@
 --- Day 3: Binary Diagnostic ---
+
 The submarine has been making some odd creaking noises, so you ask it to produce a diagnostic report just in case.
 
 The diagnostic report (your puzzle input) consists of a list of binary numbers which, when decoded properly, can tell you many useful things about the conditions of the submarine. The first parameter to check is the power consumption.
@@ -6,7 +7,7 @@ The diagnostic report (your puzzle input) consists of a list of binary numbers w
 You need to use the binary numbers in the diagnostic report to generate two new binary numbers (called the gamma rate and the epsilon rate). The power consumption can then be found by multiplying the gamma rate by the epsilon rate.
 
 Each bit in the gamma rate can be determined by finding the most common bit in the corresponding position of all numbers in the diagnostic report. For example, given the following diagnostic report:
-
+```
 00100
 11110
 10110
@@ -19,6 +20,7 @@ Each bit in the gamma rate can be determined by finding the most common bit in t
 11001
 00010
 01010
+```
 Considering only the first bit of each number, there are five 0 bits and seven 1 bits. Since the most common bit is 1, the first bit of the gamma rate is 1.
 
 The most common second bit of the numbers in the diagnostic report is 0, so the second bit of the gamma rate is 0.

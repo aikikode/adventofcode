@@ -1,4 +1,5 @@
 --- Part Two ---
+
 On the other hand, it might be wise to try a different strategy: let the giant squid win.
 
 You aren't sure how many bingo boards a giant squid could play at once, so rather than waste time counting its arms, the safe thing to do is to figure out which board will win last and choose that one. That way, no matter which boards it picks, it will win for sure.
