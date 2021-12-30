@@ -123,3 +123,7 @@ F600BC2D8F produces 0, because 5 is not greater than 15.
 9C0141080250320F1802104A08 produces 1, because 1 + 3 = 2 * 2.
 ```
 What do you get if you evaluate the expression represented by your hexadecimal-encoded BITS transmission?
+
+Your puzzle answer was 539051801941.
+
+Both parts of this puzzle are complete! They provide two gold stars: **
